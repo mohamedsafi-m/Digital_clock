@@ -16,7 +16,6 @@ This project is intended for educational purposes to strengthen understanding of
 - 24-Hour Time Format
 - Hours, Minutes, and Seconds Display
 - AM / PM LED Indicator
-- CMOS Logic Design
 - Breadboard Prototype
 - Expandable to PCB Design
 - No Microcontroller Required
@@ -27,7 +26,8 @@ This project is intended for educational purposes to strengthen understanding of
 
 ### ICs
 
-- CD4026 Decade Counter with 7-Segment Driver
+- 74LS90 Decade Counter
+- 74LS47 BCD to Seven-Segment Decoder
 - NE555 Timer
 - Logic Gates
 
@@ -39,7 +39,6 @@ This project is intended for educational purposes to strengthen understanding of
 
 - Resistors
 - Capacitors
-- Crystal / RC Timing Components
 - Push Buttons
 - LEDs
 
@@ -51,10 +50,10 @@ This project is intended for educational purposes to strengthen understanding of
 
 ## ⚙️ Working Principle
 
-1. A clock pulse is generated using an oscillator.
+1. A clock pulse is generated using an Timer 555 IC.
 2. The pulse is converted into a precise 1 Hz signal.
-3. CD4026 ICs count the pulses.
-4. Each CD4026 directly drives a seven-segment display.
+3. 7490 ICs count the pulses.
+4. 7447 IC converts BCD to a seven-segment display signals.
 5. Counter carry outputs cascade into the next digit.
 6. Logic resets counters at appropriate values:
    - Seconds: **59 → 00**
@@ -99,7 +98,6 @@ Current Stage:
 - [ ] Schematic Design
 - [ ] Breadboard Prototype
 - [ ] Functional Testing
-- [ ] PCB Design
 - [ ] Final Documentation
 
 ---
