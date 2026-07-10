@@ -15,7 +15,6 @@ This project is intended for educational purposes to strengthen understanding of
 
 - 24-Hour Time Format
 - Hours, Minutes, and Seconds Display
-- AM / PM LED Indicator
 - Breadboard Prototype
 - Expandable to PCB Design
 - No Microcontroller Required
@@ -26,8 +25,7 @@ This project is intended for educational purposes to strengthen understanding of
 
 ### ICs
 
-- 74LS90 Decade Counter
-- 74LS47 BCD to Seven-Segment Decoder
+- CMOS CD4026BE
 - NE555 Timer
 - Logic Gates
 
@@ -52,14 +50,12 @@ This project is intended for educational purposes to strengthen understanding of
 
 1. A clock pulse is generated using an Timer 555 IC.
 2. The pulse is converted into a precise 1 Hz signal.
-3. 7490 ICs count the pulses.
-4. 7447 IC converts BCD to a seven-segment display signals.
-5. Counter carry outputs cascade into the next digit.
-6. Logic resets counters at appropriate values:
+3. CD4026BE ICs count the pulses and converts BCD to a seven-segment display signals.
+4. Counter carry outputs cascade into the next digit.
+5. Logic resets counters at appropriate values:
    - Seconds: **59 → 00**
    - Minutes: **59 → 00**
    - Hours: **12 → 01**
-7. The AM/PM indicator toggles every 12 hours.
 
 ---
 
@@ -95,10 +91,10 @@ Current Stage:
 
 - [x] Project Planning
 - [x] Component Selection
-- [ ] Schematic Design
-- [ ] Breadboard Prototype
+- [X] Schematic Design
+- [X] Breadboard Prototype
 - [ ] Functional Testing
-- [ ] Final Documentation
+- [X] Final Documentation
 
 ---
 
