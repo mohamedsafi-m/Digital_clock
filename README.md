@@ -66,18 +66,14 @@ Digital_clock/
 │
 ├── docs/
 │   ├── BlockDiagram.png
-│   ├── CircuitDiagram.pdf
 │   ├── BreadboardLayout.png
 │   └── ProjectReport.pdf
 │
-├── kicad/
-│   ├── Schematic/
+├── Schematic/
 │
 │
 ├── images/
-│   ├── Prototype.jpg
 │   ├── FinalClock.jpg
-│   └── Wiring.jpg
 │
 ├── README.md
 └── LICENSE
