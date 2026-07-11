@@ -89,7 +89,7 @@ Current Stage:
 - [x] Component Selection
 - [X] Schematic Design
 - [X] Breadboard Prototype
-- [ ] Functional Testing
+- [x] Functional Testing
 - [X] Final Documentation
 
 ---
@@ -106,6 +106,10 @@ Current Stage:
 - Cascaded Counters
 
 ---
+## Teammates :
+- PRAVINKUMAR VS
+- MAHITHA S
+ 
 
 ## 🎯 Future Improvements
 
