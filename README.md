@@ -55,7 +55,7 @@ This project is intended for educational purposes to strengthen understanding of
 5. Logic resets counters at appropriate values:
    - Seconds: **59 → 00**
    - Minutes: **59 → 00**
-   - Hours: **12 → 01**
+   - Hours: **23 → 00**
 
 ---
 
